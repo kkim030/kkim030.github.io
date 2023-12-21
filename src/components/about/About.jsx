@@ -17,7 +17,12 @@ const About = () => {
               from the Rotman School of Management at the University of Toronto!
               Feel free to contact me!
             </p>
-            <a href="" className="btn__download">
+            <a
+              href="
+                https://publuu.com/flip-book/343087/787752"
+              target="_blank"
+              className="btn__download"
+            >
               Download Resume
             </a>
           </div>
