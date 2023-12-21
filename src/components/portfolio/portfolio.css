@@ -1,0 +1,127 @@
+.work__filters {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    column-gap: 1.8rem;
+    margin-bottom: 2.6rem;
+  }
+  
+  .work__item {
+    cursor: pointer;
+    font-weight: var(--font-bold);
+    transition: 0.3s;
+  }
+  
+  .work__item:hover {
+    color: var(--first-color);
+  }
+  
+  .work__container {
+    grid-template-columns: 400px 400px;
+    gap: 2rem;
+  }
+  
+  .work__card {
+    position: relative;
+    overflow: hidden;
+    border-radius: 1.8rem;
+    box-shadow: var(--shadow);
+  }
+  
+  .work__mask {
+    background: #D46BCA;
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    transition: 0.3s;
+    opacity: 0;
+  }
+  
+  .work__card:hover .work__mask {
+    opacity: 0.9;
+  }
+  
+  .work__category {
+    color: #fff;
+    background-color: var(--first-color);
+    border-bottom-left-radius: 1rem;
+    border-bottom-right-radius: 1rem;
+    position: absolute;
+    top: 0;
+    left: 1.6rem;
+    font-size: var(--small-font-size);
+    display: inline-block;
+    padding: 0.2rem 0.6rem;
+    transform: translateY(-40px);
+    transition: 0.3s;
+  }
+  .work__title {
+    color: #fff;
+    font-size: var(--h3-font-size);
+    margin: 0 0 1rem;
+    padding: 0 1.2rem;
+    position: absolute;
+    top: 3.8rem;
+    transform: translateY(30px);
+    transition: 0.3s;
+    opacity: 0;
+  }
+  .work__button {
+    color: #fff;
+    position: absolute;
+    bottom: 1.6rem;
+    left: 1.6rem;
+    font-size: var(--h3-font-size);
+    display: block;
+    background-color:#FD883D; 
+    height: 40px;
+    width: 40px;
+    cursor: pointer;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 42px;
+    transition: 0.3s;
+    opacity: 0;
+  }
+  .work__card:hover .work__button {
+    opacity: 1;
+  }
+  
+  .work__card:hover .work__title,
+  .work__card:hover .work__category {
+    opacity: 1;
+    transform: translateY(0);
+  }
+
+  @media screen and (max-width: 1024px) {
+    .work__filters {
+      justify-content: center;
+    }
+  
+    .work__container {
+        grid-template-columns: repeat(2, 330px);
+        justify-content: center;
+        row-gap: 1.875rem;
+    }
+  }
+  
+  @media screen and (max-width: 768px) {
+    .work__container {
+        grid-template-columns: 320px;
+    }
+  
+    .work__filters {
+      row-gap: .25rem;
+    }
+  }
+  
+  @media screen and (max-width: 350px) {
+    .work__container {
+        grid-template-columns: 1fr;
+    }
+  }
+
+
+  

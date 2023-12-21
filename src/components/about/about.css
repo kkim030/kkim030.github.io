@@ -1,0 +1,136 @@
+.about__container {
+    grid-template-columns: 3fr 9fr;
+    column-gap: 2rem;
+}
+.about__img {
+  position: relative;
+
+}
+.about__data{
+    padding: 2rem;
+    background-color: var(--container-color);
+    box-shadow: var(--shadow);
+    border-radius: 1.8rem;
+    grid-template-columns: repeat(1, 1fr);
+    align-items: flex-start;
+    position: relative;
+    box-shadow: var(--shadow);
+}
+.about__data::before{
+    content:'';
+    width:0;
+    height: 0;
+    border-top: 10px solid transparent;
+    border-bottom: 10px solid transparent;
+    border-right: 15px solid var(--container-color);
+    position: absolute;
+    left: -1rem;
+    top: 20%;
+}
+.about_description{
+  position: relative;
+  padding-left: 3.125rem;
+  padding-bottom: 3.125rem;
+}
+.btn__download {
+    padding: 0.8rem 2rem;
+    line-height: 1;
+    border-radius: 1.8rem;  
+    box-shadow: 0 0 1px rgb(0 0 0 / 0%);
+    border: 1px solid transparent;
+    color: #fff;
+    display: inline-block;
+    background-color: var(--first-color);
+    font-weight: var(--font-bold);
+    margin-top: 5%;
+    margin-left: 35%;
+
+
+
+  }
+
+  @media screen and (max-width: 768px) {
+    .about__container {
+      grid-template-columns: 350px;
+    }
+  
+    .about__data::before {
+      left: 47%;
+    }
+  
+    .about__data {
+      grid-template-columns: 1fr;
+      row-gap: 1.8rem;
+    }
+  
+  }
+
+  @media screen and (max-width: 768px) {
+    .about__container {
+      grid-template-columns: 350px;
+    }
+  
+    .about__data::before {
+      left: 47%;
+    }
+  
+    .about__data {
+      grid-template-columns: 1fr;
+      row-gap: 1.875rem;
+    }
+
+    .btn__download {
+      margin-left: 15%;
+      margin-top: 10%;
+    }
+
+    .about__img {
+      left: 15%;
+      bottom: 10%;
+    }
+  
+
+  }
+  
+  @media screen and (max-width: 576px) {
+    .about__container {
+      grid-template-columns: 355px;
+    }
+    .about__img {
+      left: 15%;
+      bottom: 10%;
+    }
+    .about__inside {
+      position: absolute;
+    }
+    .btn__download {
+      margin-left: 15%;
+      margin-top: 10%;
+    }
+  }
+  
+  @media screen and (max-width: 350px) {
+    .about__container {
+      grid-template-columns: 1fr;
+    }
+    .about_description {
+      grid-template-columns: 1fr;
+    }
+    .about__info {
+      position: relative
+    }
+    .about__inside {
+      position: absolute;
+    }
+    .about__img {
+      left: 15%;
+      bottom: 10%;
+    }
+    .btn__download {
+      margin-left: 15%;
+      margin-top: 10%;
+    }
+
+  
+  }
+  
