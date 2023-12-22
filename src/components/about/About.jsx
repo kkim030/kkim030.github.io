@@ -19,7 +19,7 @@ const About = () => {
             </p>
             <a
               href="
-                https://publuu.com/flip-book/343087/787752"
+              https://acrobat.adobe.com/id/urn:aaid:sc:us:aab3a221-e174-46c0-b305-1a9c6a32f9c2"
               target="_blank"
               className="btn__download"
             >
