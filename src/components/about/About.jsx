@@ -19,7 +19,7 @@ const About = () => {
             </p>
             <a
               href="
-              https://acrobat.adobe.com/id/urn:aaid:sc:us:aab3a221-e174-46c0-b305-1a9c6a32f9c2"
+              https://acrobat.adobe.com/id/urn:aaid:sc:us:0f56ca0a-9898-4251-af9a-7d182281dd87"
               target="_blank"
               className="btn__download"
             >
