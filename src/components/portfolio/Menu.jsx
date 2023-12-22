@@ -5,7 +5,7 @@ const Menu = [
   {
     id: 1,
     image: Work1,
-    title: "[2nd Place - Cmd-f Hackathon]  sSeeking Refuge Chrome Extension",
+    title: "[2nd Place - Cmd-f Hackathon]  Seeking Refuge Chrome Extension",
     category: "Jsx HTML CSS",
     link: "https://github.com/alicekanng/refugee-support",
   },

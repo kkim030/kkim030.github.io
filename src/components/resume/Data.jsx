@@ -23,7 +23,7 @@ const Data = [
     id: 3,
     category: "job",
     icon: "icon-briefcase",
-    year: "Jan 2023 - Aug 2023",
+    year: "Aug 2021 - May 2022",
     title: "Business Insight Data Analyst",
     company: "TD Credit Cards",
     skills: "Python, SQL",
