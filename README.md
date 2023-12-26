@@ -47,7 +47,7 @@ https://github.com/kkim030/kkim030.github.io/assets/93014710/10f5a5fa-24d2-4742-
 
 
 
-Welcome to the personal portfolio website! Please visit the link.
+Welcome to the personal portfolio website! Please visit the link: https://kkim030.github.io/
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
