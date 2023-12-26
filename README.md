@@ -6,7 +6,6 @@
 <br />
 <div align="center">
   <a href="https://github.com/kkim030/kkim030.github.io">
-    <img src="images/logo.png" alt="Logo" width="80" height="80">
   </a>
 
 <h3 align="center">Portfolio_Website</h3>
