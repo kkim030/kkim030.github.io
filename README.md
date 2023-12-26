@@ -41,6 +41,12 @@
 
 <img width="1289" alt="image" src="https://github.com/kkim030/kkim030.github.io/assets/93014710/7542e0b8-545c-4532-8487-479858be0784">
 
+
+
+https://github.com/kkim030/kkim030.github.io/assets/93014710/10f5a5fa-24d2-4742-ad0d-1a0080733781
+
+
+
 Welcome to the personal portfolio website! Please visit the link.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
